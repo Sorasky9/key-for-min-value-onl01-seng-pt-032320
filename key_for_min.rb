@@ -6,7 +6,9 @@ lowest_key = nil # This is the default key because it is empty
 lowest_value = nil # This is the default value because it is empty
 
 name_hash.each do |key, value|
-
+if lowest_value == nil || value < lowest_value # We are checking for what we iterate if it is true
+  lowest_value = value # We are making the lowest_value variable equal to value of the hash
+  lowest_key = key 
 
 end
 end
