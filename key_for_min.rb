@@ -13,4 +13,5 @@ if lowest_value == nil || value < lowest_value # We are checking for what we ite
 
 end
 end
+lowest_key
 end
