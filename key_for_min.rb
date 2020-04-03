@@ -10,5 +10,7 @@ if lowest_value == nil || value < lowest_value # We are checking for what we ite
   lowest_value = value # We are making the lowest_value variable equal to value of the hash
   lowest_key = key  # We are making the lowest_key variable equal to the key of the hash
 
+
+end
 end
 end
